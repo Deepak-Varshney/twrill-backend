@@ -12,7 +12,7 @@ export const register = async (req, res) => {
         return res.status(400).json({ error: "User already exists with this email" });
     }
     const salt = await bcrypt.genSalt(10)
-    const hashedPassword = await bcrypt.hashSync(password, salt);
+    const hashedPassword = await bcrypt.hash(password, salt);
     const user = await prisma.user.create({
         data: {
             name: name,
@@ -30,7 +30,6 @@ export const register = async (req, res) => {
                 name: user.name,
                 email: user.email
             },
-            token
         }
     })
 }
@@ -58,18 +57,49 @@ export const login = async (req, res) => {
                 id: user.id,
                 email: user.email,
             },
-            token
         }
     })
 }
 
 export const logout = async (req, res) => {
-    res.cookie("jwt","",{
-        httpOnly:true,
+    res.cookie("jwt", "", {
+        httpOnly: true,
         expires: new Date(0)
     })
     res.status(200).json({
         status: "success",
         message: "Logged out Successfully"
     })
+}
+
+export const getMe = async (req, res) => {
+    try {
+        const user = await prisma.user.findUnique({
+            where: {
+                email: req.user.email
+            },
+            select: {
+                id: true,
+                name: true,
+                email: true
+            }
+        })
+        if (!user) {
+            return res.status(404).json({
+                message: "User not found",
+            });
+        }
+        res.status(200).json({
+            status: "success",
+            data: {
+                user,
+            },
+        });
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            message: "Server error",
+        });
+    }
 }
