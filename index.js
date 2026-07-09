@@ -31,6 +31,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import authRoutes from "./src/routes/auth.routes.js";
+import productRoutes from "./src/routes/product.routes.js";
 
 dotenv.config();
 
@@ -42,10 +43,13 @@ app.use(express.json());
 
 // API routes
 app.use("/api/auth", authRoutes);
+app.use("/api/menu", productRoutes);
 
 app.get("/api/health", (req, res) => {
   res.json("working");
 });
+
+
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
