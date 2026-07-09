@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@demo.com",
+    "password": "bOnVut7h",
+    "role": "customer"
+  },
+  {
+    "id": 2,
+    "name": "Vivaan Chatterjee",
+    "email": "vivaan.chatterjee@demo.com",
+    "password": "CRCbPY8D",
+    "role": "customer"
+  },
+  {
+    "id": 3,
+    "name": "Aditya Iyer",
+    "email": "aditya.iyer@demo.com",
+    "password": "YtOUGVd5",
+    "role": "customer"
+  },
+  {
+    "id": 4,
+    "name": "Vihaan Nair",
+    "email": "vihaan.nair@demo.com",
+    "password": "e9kfqkiN",
+    "role": "customer"
+  },
+  {
+    "id": 5,
+    "name": "Arjun Pillai",
+    "email": "arjun.pillai@demo.com",
+    "password": "zztKvwN#",
+    "role": "customer"
+  },
+  {
+    "id": 6,
+    "name": "Sai Pillai",
+    "email": "sai.pillai@demo.com",
+    "password": "oJNLzt0v",
+    "role": "customer"
+  },
+  {
+    "id": 7,
+    "name": "Reyansh Banerjee",
+    "email": "reyansh.banerjee@demo.com",
+    "password": "Eiz@jYYG",
+    "role": "customer"
+  },
+  {
+    "id": 8,
+    "name": "Ayaan Reddy",
+    "email": "ayaan.reddy@demo.com",
+    "password": "uj#T2TcA",
+    "role": "customer"
+  },
+  {
+    "id": 9,
+    "name": "Krishna Pandey",
+    "email": "krishna.pandey@demo.com",
+    "password": "Q1a@wRmA",
+    "role": "customer"
+  },
+  {
+    "id": 10,
+    "name": "Ishaan Chauhan",
+    "email": "ishaan.chauhan@demo.com",
+    "password": "8G8QRz1f",
+    "role": "customer"
+  },
+  {
+    "id": 11,
+    "name": "Shaurya Banerjee",
+    "email": "shaurya.banerjee@demo.com",
+    "password": "@A0JEQR1",
+    "role": "customer"
+  },
+  {
+    "id": 12,
+    "name": "Atharv Reddy",
+    "email": "atharv.reddy@demo.com",
+    "password": "rBhlDdqk",
+    "role": "customer"
+  },
+  {
+    "id": 13,
+    "name": "Advik Sen",
+    "email": "advik.sen@demo.com",
+    "password": "Km6GpIIv",
+    "role": "customer"
+  },
+  {
+    "id": 14,
+    "name": "Pranav Chatterjee",
+    "email": "pranav.chatterjee@demo.com",
+    "password": "iEtVLzLg",
+    "role": "customer"
+  },
+  {
+    "id": 15,
+    "name": "Advait Nair",
+    "email": "advait.nair@demo.com",
+    "password": "m2B6v1y0",
+    "role": "customer"
+  },
+  {
+    "id": 16,
+    "name": "Dhruv Banerjee",
+    "email": "dhruv.banerjee@demo.com",
+    "password": "KpZwE@vo",
+    "role": "customer"
+  },
+  {
+    "id": 17,
+    "name": "Kabir Iyer",
+    "email": "kabir.iyer@demo.com",
+    "password": "DZPcx7jL",
+    "role": "customer"
+  },
+  {
+    "id": 18,
+    "name": "Ritvik Mehta",
+    "email": "ritvik.mehta@demo.com",
+    "password": "7ijbcjbs",
+    "role": "customer"
+  },
+  {
+    "id": 19,
+    "name": "Aaryan Kumar",
+    "email": "aaryan.kumar@demo.com",
+    "password": "8N@x6VON",
+    "role": "customer"
+  },
+  {
+    "id": 20,
+    "name": "Rohan Nair",
+    "email": "rohan.nair@demo.com",
+    "password": "kSsaHB2z",
+    "role": "customer"
+  },
+  {
+    "id": 21,
+    "name": "Priya Malhotra",
+    "email": "priya.malhotra@demo.com",
+    "password": "PZcdVy@U",
+    "role": "customer"
+  },
+  {
+    "id": 22,
+    "name": "Ananya Agarwal",
+    "email": "ananya.agarwal@demo.com",
+    "password": "#WedIDD3",
+    "role": "customer"
+  },
+  {
+    "id": 23,
+    "name": "Diya Patel",
+    "email": "diya.patel@demo.com",
+    "password": "GGMfrs8z",
+    "role": "customer"
+  },
+  {
+    "id": 24,
+    "name": "Kavya Banerjee",
+    "email": "kavya.banerjee@demo.com",
+    "password": "a0I4d8X#",
+    "role": "customer"
+  },
+  {
+    "id": 25,
+    "name": "Shreya Banerjee",
+    "email": "shreya.banerjee@demo.com",
+    "password": "2axyVUH8",
+    "role": "customer"
+  },
+  {
+    "id": 26,
+    "name": "Aarohi Kumar",
+    "email": "aarohi.kumar@demo.com",
+    "password": "riXGZlN3",
+    "role": "customer"
+  },
+  {
+    "id": 27,
+    "name": "Ishita Rao",
+    "email": "ishita.rao@demo.com",
+    "password": "ZUHJ#@Mb",
+    "role": "customer"
+  },
+  {
+    "id": 28,
+    "name": "Sneha Mishra",
+    "email": "sneha.mishra@demo.com",
+    "password": "HKFbQjhX",
+    "role": "customer"
+  },
+  {
+    "id": 29,
+    "name": "Pooja Pandey",
+    "email": "pooja.pandey@demo.com",
+    "password": "OBvVl91R",
+    "role": "customer"
+  },
+  {
+    "id": 30,
+    "name": "Neha Patel",
+    "email": "neha.patel@demo.com",
+    "password": "YUuCW3GV",
+    "role": "customer"
+  },
+  {
+    "id": 31,
+    "name": "Riya Joshi",
+    "email": "riya.joshi@demo.com",
+    "password": "ulbWjOXh",
+    "role": "customer"
+  },
+  {
+    "id": 32,
+    "name": "Aisha Patel",
+    "email": "aisha.patel@demo.com",
+    "password": "nMkf77gg",
+    "role": "customer"
+  },
+  {
+    "id": 33,
+    "name": "Tanvi Malhotra",
+    "email": "tanvi.malhotra@demo.com",
+    "password": "GGm4fgeJ",
+    "role": "customer"
+  },
+  {
+    "id": 34,
+    "name": "Mansi Ghosh",
+    "email": "mansi.ghosh@demo.com",
+    "password": "apjoATKr",
+    "role": "customer"
+  },
+  {
+    "id": 35,
+    "name": "Kritika Agarwal",
+    "email": "kritika.agarwal@demo.com",
+    "password": "2MgLZAD6",
+    "role": "customer"
+  },
+  {
+    "id": 36,
+    "name": "Divya Kumar",
+    "email": "divya.kumar@demo.com",
+    "password": "402O4Dhi",
+    "role": "customer"
+  },
+  {
+    "id": 37,
+    "name": "Simran Bose",
+    "email": "simran.bose@demo.com",
+    "password": "By1q0ZqO",
+    "role": "customer"
+  },
+  {
+    "id": 38,
+    "name": "Nisha Reddy",
+    "email": "nisha.reddy@demo.com",
+    "password": "y@Ycnmp3",
+    "role": "customer"
+  },
+  {
+    "id": 39,
+    "name": "Komal Agarwal",
+    "email": "komal.agarwal@demo.com",
+    "password": "PXCRnTla",
+    "role": "customer"
+  },
+  {
+    "id": 40,
+    "name": "Meera Rao",
+    "email": "meera.rao@demo.com",
+    "password": "JXgZcnxN",
+    "role": "customer"
+  },
+  {
+    "id": 41,
+    "name": "Rahul Gupta",
+    "email": "rahul.gupta@demo.com",
+    "password": "xEWwSGxS",
+    "role": "customer"
+  },
+  {
+    "id": 42,
+    "name": "Amit Rao",
+    "email": "amit.rao@demo.com",
+    "password": "Fyk6oLzi",
+    "role": "customer"
+  },
+  {
+    "id": 43,
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra@demo.com",
+    "password": "XP9nootB",
+    "role": "customer"
+  },
+  {
+    "id": 44,
+    "name": "Suresh Singh",
+    "email": "suresh.singh@demo.com",
+    "password": "eDBtQSLe",
+    "role": "customer"
+  },
+  {
+    "id": 45,
+    "name": "Rajesh Mehta",
+    "email": "rajesh.mehta@demo.com",
+    "password": "61hPtDx@",
+    "role": "customer"
+  },
+  {
+    "id": 46,
+    "name": "Manoj Tiwari",
+    "email": "manoj.tiwari@demo.com",
+    "password": "EnQeqeGu",
+    "role": "customer"
+  },
+  {
+    "id": 47,
+    "name": "Deepak Gupta",
+    "email": "deepak.gupta@demo.com",
+    "password": "JROIKDMP",
+    "role": "customer"
+  },
+  {
+    "id": 48,
+    "name": "Sanjay Sen",
+    "email": "sanjay.sen@demo.com",
+    "password": "lh89JYAM",
+    "role": "customer"
+  },
+  {
+    "id": 49,
+    "name": "Nikhil Mukherjee",
+    "email": "nikhil.mukherjee@demo.com",
+    "password": "eEGANmhV",
+    "role": "customer"
+  },
+  {
+    "id": 50,
+    "name": "Kunal Mehta",
+    "email": "kunal.mehta@demo.com",
+    "password": "wWzvLIHM",
+    "role": "customer"
+  }
+]
