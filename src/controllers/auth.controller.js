@@ -20,7 +20,7 @@ export const register = async (req, res) => {
             password: hashedPassword
         }
     })
-    const token = generateToken(user.email, res);
+    const token = generateToken(user.email, user.id, res);
 
     res.status(201).json({
         status: "success",
@@ -48,7 +48,8 @@ export const login = async (req, res) => {
     if (!passwordValid) {
         return res.status(401).json({ error: "Unauthorized" })
     }
-    const token = generateToken(user.email, res);
+    
+    const token = generateToken(user.email, user.id, res);
 
     res.status(200).json({
         status: "success",
