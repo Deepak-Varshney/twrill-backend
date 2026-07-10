@@ -43,7 +43,7 @@ app.use(express.json());
 
 // API routes
 app.use("/api/auth", authRoutes);
-app.use("/api/menu", productRoutes);
+app.use("/api/", productRoutes);
 
 app.get("/api/health", (req, res) => {
   res.json("working");

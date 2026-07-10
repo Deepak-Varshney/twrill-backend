@@ -2,14 +2,14 @@ import { Router } from "express";
 import axios from "axios";
 const router = Router();
 
-router.get('/items', async (req, res) => {
+router.get('/products', async (req, res) => {
     try {
         const { data } = await axios.post(`https://secureapi.twirll.com/businessinventory/get_outlet_menu_items.json?access_token=${process.env.TOKEN}`, {
             "business_location_id": "2029",
             "businessprofile_id": "1989",
             "Output_information_type": "ProductList"
         })
-        res.status(200).json(data)
+        res.status(200).json(data.items)
     } catch (error) {
         console.error(error.message)
     }
@@ -23,7 +23,7 @@ router.get('/products/:id', async (req, res) => {
         const { data } = await axios.post(`https://secureapi.twirll.com/businessinventory/${id}/public_product_detail.json?access_token=${process.env.TOKEN}`, {
             "business_location_id": "2029"
         })
-        res.status(200).json(data)
+        res.status(200).json(data[0])
     } catch (error) {
         console.error(error.message)
     }
