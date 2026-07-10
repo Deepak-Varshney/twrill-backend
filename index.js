@@ -32,12 +32,14 @@ import express from "express";
 import dotenv from "dotenv";
 import authRoutes from "./src/routes/auth.routes.js";
 import productRoutes from "./src/routes/product.routes.js";
+import cookieParser from "cookie-parser";
 
 dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
 const app = express();
+app.use(cookieParser());
 
 app.use(express.json());
 
