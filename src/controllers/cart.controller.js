@@ -2,7 +2,7 @@ import prisma from "../config/database.js";
 
 export const createCart = async (req, res) => {
     const { productId, variantId, productName, variantName, price, image } = req.body;
-    if (!productId || !variantId || !productName || !variantName || !price || !image) {
+    if (!productId || !variantId || !productName || !variantName || !price) {
         return res.status(400).json({
             message: "Missing required fields",
         });
@@ -39,7 +39,7 @@ export const createCart = async (req, res) => {
                         variantName,
                         productName,
                         price,
-                        image,
+                        image: image ? image : '',
                         quantity: 1
                     }
                 })
@@ -55,7 +55,7 @@ export const createCart = async (req, res) => {
                             variantName,
                             productName,
                             price,
-                            image,
+                            image: image ? image : '',
                             quantity: 1
                         }
                     }
@@ -84,7 +84,7 @@ export const getCart = async (req, res) => {
                 items: true
             }
         })
-        if (existingCart.items.length<=0) {
+        if (existingCart.items.length <= 0) {
             return res.status(200).json({
                 data: {
                     items: [],
